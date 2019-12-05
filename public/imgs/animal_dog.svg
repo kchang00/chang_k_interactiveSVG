@@ -2,6 +2,11 @@
   <defs>
     <style>
       .cls-1{opacity:.8}.cls-2{fill:#ffdc00}.cls-3{fill:#f9a11b}.cls-10,.cls-6{stroke:#100733;stroke-linecap:round;stroke-linejoin:round;stroke-width:2.17px}.cls-6{fill:#f06566}.cls-7{fill:#100834}.cls-10,.cls-8{fill:#fff9ec}
+      svg { cursor: pointer; }
+      .magenta{
+        transition: .3s all ease;
+        opacity: 0;
+        }
     </style>
   </defs>
   <g id="dog">
@@ -41,4 +46,12 @@
       <path id="snout" class="cls-10" d="M57.17 74.77A25.06 25.06 0 0183 74.62a38 38 0 01-6.6-21.85c0-8.1 2.06-15.4 5.4-20.63a33.5 33.5 0 00-11.56-2.06 32.9 32.9 0 00-11.69 2.12c3.35 5.21 5.37 12.5 5.37 20.57a37.81 37.81 0 01-6.75 22z"/>
     </g>
   </g>
+  <defs>
+    <script>
+      // stub
+      document.querySelector("#dog").addEventListener("click", function () {
+      this.querySelector("#circle").classList.toggle("magenta");
+      });
+    </script>
+  </defs>
 </svg>
