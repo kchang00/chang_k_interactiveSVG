@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 140.2 140.2">
+  <defs>
+    <style>
+      .cls-1{opacity:.8}.cls-2{fill:#ffdc00}.cls-3{fill:#f9a11b}.cls-5,.cls-7{fill:#f7a790}.cls-5,.cls-6,.cls-8{stroke:#100733;stroke-linecap:round;stroke-linejoin:round;stroke-width:2.17px}.cls-6{fill:#f06566}.cls-8{fill:none}
+    </style>
+  </defs>
+  <g id="rat">
+    <g id="circle">
+      <g id="circle_half_tone" class="cls-1">
+        <path class="cls-2" d="M20.53 20.53a70.1 70.1 0 0199.14 99.14z"/>
+        <path class="cls-3" d="M119.67 119.67a70.1 70.1 0 01-99.14-99.14z"/>
+      </g>
+      <g id="circle_half_tone-2" data-name="circle_half_tone" class="cls-1">
+        <path class="cls-2" d="M70.1 7.44a62.66 62.66 0 010 125.32z"/>
+        <path class="cls-3" d="M70.1 132.76a62.66 62.66 0 010-125.32z"/>
+      </g>
+      <g id="circle_half_tone-3" data-name="circle_half_tone" class="cls-1">
+        <path class="cls-2" d="M107.29 32.91a52.59 52.59 0 01-74.38 74.38z"/>
+        <path class="cls-3" d="M32.91 107.29a52.59 52.59 0 0174.38-74.38z"/>
+      </g>
+      <circle id="circle-2" data-name="circle" cx="70.1" cy="70.1" r="41.21" fill="#fdcd05"/>
+    </g>
+    <g id="rat-2" data-name="rat">
+      <path id="head" class="cls-5" d="M71.27 115.11c3.54 0 6.45-.73 9-3.31C87 105.13 97.58 92 102.38 85.35c3-4.11 2.44-9.14 2.44-14.31 0-17.86-14.6-32.34-31.72-32.34h-4C52 38.7 37.4 53.18 37.4 71c0 4.89-.63 9.65 2.17 13.56C44.5 91.4 55.35 105 62.19 111.8c2.61 2.58 5.52 3.31 9.08 3.31z"/>
+      <g id="ears">
+        <path class="cls-5" d="M53.11 61.7c3.2-2.37-1.72-31.29-5.2-33.89s-12.57 2.5-15.78 4.84-11.38 9.69-9.87 14.09c1.42 4.1 27.62 17.32 30.85 14.96z"/>
+        <path class="cls-6" d="M50.09 57.61c1.52-1.12-3-17.75-5-19.45s-5.93-1-8.37.86-4.88 5.55-3.8 8.12c1.08 2.4 15.65 11.59 17.17 10.47z"/>
+        <path class="cls-5" d="M89.1 61.7c-3.21-2.37 1.72-31.29 5.19-33.89s12.57 2.5 15.78 4.84 11.39 9.69 9.86 14.09c-1.4 4.1-27.63 17.32-30.83 14.96z"/>
+        <path class="cls-6" d="M92.12 57.61c-1.53-1.12 3-17.75 4.94-19.45s6.16-.72 8.38.86c2.5 1.74 4.87 5.55 3.79 8.12-1.01 2.4-15.6 11.59-17.11 10.47z"/>
+        <path id="cover" class="cls-7" transform="rotate(-36.42 54.43 62.22)" d="M41.5 58.22h25.85v7.99H41.5z"/>
+        <path id="cover-2" class="cls-7" transform="rotate(-53.58 88.22 62.22)" d="M84.22 49.29h7.99v25.85h-7.99z"/>
+      </g>
+      <path id="nose" class="cls-6" d="M71.1 104.65c-.8 0-3.45-4.47-3.19-5.18s2.32-.94 3.12-.94 3 .18 3.26.94-2.39 5.18-3.19 5.18z"/>
+      <g id="whiskers">
+        <path class="cls-8" d="M63.54 100.21l-19.88-.96M63.54 100.21l-15.1 10.58M63.54 100.21l-19.39 4.91M78.65 100.21l19.89-.96M78.65 100.21l15.1 10.58M78.65 100.21l19.4 4.91"/>
+      </g>
+      <g id="mouth">
+        <path id="mouth_cheek2" data-name="mouth cheek2" class="cls-8" d="M70.45 107.91a3.93 3.93 0 01-5.55 0"/>
+        <path id="mouth_cheek" data-name="mouth cheek" class="cls-8" d="M77.32 107.91a3.93 3.93 0 01-5.55 0"/>
+        <path id="mouth_middle" data-name="mouth middle" class="cls-8" d="M71.12 105.28v2.06"/>
+      </g>
+      <g id="eyes">
+        <path id="eye_smile2" data-name="eye smile2" class="cls-8" d="M51.66 82c2.55-1.8 5.59-1.84 6.84 0"/>
+        <path id="eye_smile" data-name="eye smile" class="cls-8" d="M90.55 82c-2.53-1.8-5.59-1.82-6.86 0"/>
+      </g>
+    </g>
+  </g>
+</svg>

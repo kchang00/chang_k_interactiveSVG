@@ -1,0 +1,45 @@
+// main breakpoints
+$desktop-size: 1024px;
+$tablet-size: 670px;
+$tablet-margin: 30px;
+$mobile-margin: 20px;
+$desktop-margin: 50px;
+
+$dark-magenta: #632535;
+$magenta: #7F2E41;
+$gold: #F7BC26;
+$yellow: #FCCE0C;
+$navy: #151032;
+$pink: #EF626A;
+
+@mixin h1-class {
+    font-size: 2.2em;
+    color: white;
+    font-family: 'Nunito Sans', sans-serif;
+    line-height: 1.5em;
+    text-transform: uppercase;
+}
+
+@mixin h2-class {
+    font-size: 2.5em;
+    color: $gold;
+    font-family: 'Nunito Sans', sans-serif;
+    line-height: 1em;
+    text-transform: uppercase;
+    margin-bottom:  20px;
+}
+
+@mixin h3-class {
+    font-size: 1.8em;
+    color: white;
+    font-family: 'Nunito Sans', sans-serif;
+    line-height: 1em;
+    margin-bottom: 40px;
+}
+
+@mixin p-class {
+    font-size: 1em;
+    color: white;
+    font-family: 'Nunito Sans', sans-serif;
+    line-height: 1em;
+}

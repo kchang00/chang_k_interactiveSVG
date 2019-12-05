@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 140.2 140.2">
+  <defs>
+    <style>
+      .cls-1{opacity:.8}.cls-2{fill:#ffdc00}.cls-3{fill:#f9a11b}.cls-5,.cls-7{fill:#f06566;stroke:#100733;stroke-linecap:round;stroke-linejoin:round;stroke-width:2.17px}.cls-7{fill:none}
+    </style>
+  </defs>
+  <g id="rooster">
+    <g id="circle">
+      <g id="circle_half_tone" class="cls-1">
+        <path class="cls-2" d="M20.53 20.53a70.1 70.1 0 0199.14 99.14z"/>
+        <path class="cls-3" d="M119.67 119.67a70.1 70.1 0 01-99.14-99.14z"/>
+      </g>
+      <g id="circle_half_tone-2" data-name="circle_half_tone" class="cls-1">
+        <path class="cls-2" d="M70.1 7.44a62.66 62.66 0 010 125.32z"/>
+        <path class="cls-3" d="M70.1 132.76a62.66 62.66 0 010-125.32z"/>
+      </g>
+      <g id="circle_half_tone-3" data-name="circle_half_tone" class="cls-1">
+        <path class="cls-2" d="M107.29 32.91a52.59 52.59 0 01-74.38 74.38z"/>
+        <path class="cls-3" d="M32.91 107.29a52.59 52.59 0 0174.38-74.38z"/>
+      </g>
+      <circle id="circle-2" data-name="circle" cx="70.1" cy="70.1" r="41.21" fill="#fdcd05"/>
+    </g>
+    <g id="rooster-2" data-name="rooster">
+      <path id="top_detail3" data-name="top detail3" class="cls-5" d="M79.93 31.87c0-3.44-3.67-5.27-6-3-2.8 2.82-4.65 7.62-4.65 13.07 0 8.74 4.75 15.81 10.61 15.81z"/>
+      <path id="top_detail2" data-name="top detail2" class="cls-5" d="M87.53 36.09c0-3.44-3.67-5.27-6-3-2.81 2.84-4.66 7.64-4.66 13.08C76.91 55 81.66 62 87.53 62z"/>
+      <path id="body" d="M69.05 32h2.1a32 32 0 0132 32h0v37.7a13.46 13.46 0 01-13.46 13.46H50.47A13.47 13.47 0 0137 101.75v-37.7A32 32 0 0169.05 32z" fill="#fff9ec" stroke="#100733" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.17"/>
+      <path id="face" class="cls-5" d="M77.62 97.51h-15A21.28 21.28 0 0141.3 76.23c0-23.69 19.26-23.87 28.8-14.33 10.31-10.31 28.8-9.36 28.8 14.33a21.28 21.28 0 01-21.28 21.28z"/>
+      <g id="eyes">
+        <path id="eye_smile2" data-name="eye smile2" class="cls-7" d="M47.9 76c2.26-1.8 5-1.82 6.13 0"/>
+        <path id="eye_smile" data-name="eye smile" class="cls-7" d="M92.3 76c-2.26-1.8-5-1.82-6.13 0"/>
+      </g>
+      <g id="giblet">
+        <ellipse class="cls-5" cx="61.36" cy="93.63" rx="10.52" ry="7.47" transform="rotate(-54.7 60.9 93.11)"/>
+        <ellipse class="cls-5" cx="78.84" cy="93.64" rx="7.47" ry="10.52" transform="rotate(-35.38 78.84 93.64)"/>
+      </g>
+      <path id="top_detail" data-name="top detail" class="cls-5" d="M70.07 29c0-3.44-3.66-5.27-5.95-3-2.82 2.85-4.67 7.65-4.67 13.1 0 8.76 4.75 15.9 10.62 15.9z"/>
+      <path id="beak" d="M70.1 101.54c-2.17 0-9.39-17.13-8.67-19.85s5.21-4.49 8.33-4.57c3.47-.09 8.27 1.7 9 4.58.74 2.7-6.49 19.84-8.66 19.84z" fill="#ebea70" stroke="#100733" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.17"/>
+    </g>
+  </g>
+</svg>

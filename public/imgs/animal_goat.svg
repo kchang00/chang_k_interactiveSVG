@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 140.2 140.2">
+  <defs>
+    <style>
+      .cls-1{opacity:.8}.cls-2{fill:#ffdc00}.cls-3{fill:#f9a11b}.cls-5{fill:#f7a790}.cls-10,.cls-5,.cls-8,.cls-9{stroke:#100733;stroke-linecap:round;stroke-linejoin:round;stroke-width:2.17px}.cls-6{fill:#100834}.cls-7,.cls-9{fill:#fff9ec}.cls-8{fill:#f06566}.cls-10{fill:none}
+    </style>
+  </defs>
+  <g id="goat">
+    <g id="circle">
+      <g id="circle_half_tone" class="cls-1">
+        <path class="cls-2" d="M20.53 20.53a70.1 70.1 0 0199.14 99.14z"/>
+        <path class="cls-3" d="M119.67 119.67a70.1 70.1 0 01-99.14-99.14z"/>
+      </g>
+      <g id="circle_half_tone-2" data-name="circle_half_tone" class="cls-1">
+        <path class="cls-2" d="M70.1 7.44a62.66 62.66 0 010 125.32z"/>
+        <path class="cls-3" d="M70.1 132.76a62.66 62.66 0 010-125.32z"/>
+      </g>
+      <g id="circle_half_tone-3" data-name="circle_half_tone" class="cls-1">
+        <path class="cls-2" d="M107.29 32.91a52.59 52.59 0 01-74.38 74.38z"/>
+        <path class="cls-3" d="M32.91 107.29a52.59 52.59 0 0174.38-74.38z"/>
+      </g>
+      <circle id="circle-2" data-name="circle" cx="70.1" cy="70.1" r="41.21" fill="#fdcd05"/>
+    </g>
+    <g id="goat-2" data-name="goat">
+      <g id="ears">
+        <path id="ear2" class="cls-5" d="M115.17 81.43c-4.38 0-10.11-3.26-10.69-7.49a22.22 22.22 0 00-.51-2.8l-.18-.72c-1.5-5.64-6.26-7.69-12-8.42v-2.09h19.79a3 3 0 013 3l2.11 17a1.44 1.44 0 01-1.42 1.47z"/>
+        <path id="ear" class="cls-5" d="M25 81.43c4.39 0 10.11-3.26 10.7-7.49a22.14 22.14 0 01.48-2.8l.18-.72c1.52-5.61 6.32-7.67 12.09-8.4v-2.11H28.66a3 3 0 00-3 3L23.56 80A1.44 1.44 0 0025 81.43z"/>
+      </g>
+      <path id="body" class="cls-5" d="M70.1 108.92C53 108.92 39 103.5 39 86.37V69.62a30.9 30.9 0 0130.9-30.9h.29a30.9 30.9 0 0130.9 30.9v16.75c.04 17.13-13.86 22.55-30.99 22.55z"/>
+      <g id="eyes">
+        <ellipse id="eye2" class="cls-6" cx="49.38" cy="80.96" rx="2.92" ry="3.1"/>
+        <ellipse id="eye" class="cls-6" cx="90.82" cy="80.96" rx="2.92" ry="3.1"/>
+        <circle id="eye_highlight" data-name="eye highlight" class="cls-7" cx="90.82" cy="79.57" r=".73"/>
+        <circle id="eye_highlight-2" data-name="eye highlight-2" class="cls-7" cx="49.38" cy="79.62" r=".73"/>
+      </g>
+      <path id="snout" class="cls-8" d="M77.9 74.81a28.2 28.2 0 003.51 13.89c-11 5-11 5-22.31-.16a28.42 28.42 0 003.41-13.72c0-6.09-1.79-16.7-4.73-20.91C61.09 56.41 65.49 63 70.3 63c4.63 0 8.86-6.5 12.12-8.81-2.82 4.19-4.52 14.68-4.52 20.62z"/>
+      <g id="hair">
+        <ellipse id="hair-2" class="cls-8" cx="70.1" cy="110.85" rx="8.63" ry="7.55"/>
+        <path class="cls-8" d="M75.77 105.15v5.78a16.77 16.77 0 01-5.67 12.28 16.8 16.8 0 01-5.68-12.28v-5.74a9.59 9.59 0 0111.35 0z"/>
+      </g>
+      <g id="muzzle">
+        <path class="cls-9" d="M59 99.41a9.93 9.93 0 0010.12 9.51h2a9.94 9.94 0 0010.11-9.22 18.63 18.63 0 01-10.77 3.57A20 20 0 0159 99.41z"/>
+        <path class="cls-9" d="M81.24 88.54H59v10.87a20 20 0 0011.46 3.86 18.73 18.73 0 0010.79-3.53v-.51z"/>
+      </g>
+      <g id="horns">
+        <g id="horn">
+          <path class="cls-8" d="M99.27 25.39c-12.49 5.84-13 21.78-13 21.78s-2.17 10.89 13 12.5c-.79-13.31 2.42-21.9 5.82-27.15s6.91-7.13 6.91-7.13z"/>
+          <path class="cls-8" d="M112 25.39a21.9 21.9 0 00-6.87 7.13l4.59 7.48-5.32 7.17c18.16 0 7.6-21.78 7.6-21.78z"/>
+          <path class="cls-10" d="M87.82 40c8-3.91 12.74 3.34 12.21 5.44M93.11 30c6.82-3.31 10.84 3.44 10.35 5.23M113.59 30.51c-1.76 5.12-7.22 4.44-7.86 3.31M115 37.4c-1.21 3.54-4.47 2.71-5.54 2.07"/>
+        </g>
+        <g id="horn-2">
+          <path class="cls-8" d="M40.93 25c12.48 5.84 13 21.78 13 21.78s2.13 10.89-13 12.5c.79-13.28-2.43-21.9-5.82-27.16S28.25 25 28.25 25z"/>
+          <path class="cls-8" d="M28.25 25a22.11 22.11 0 016.88 7.13l-4.65 7.47 5.31 7.17C17.64 46.77 28.25 25 28.25 25z"/>
+          <path class="cls-10" d="M52.38 39.59c-8.05-3.92-12.75 3.33-12.21 5.41M47.09 29.63c-6.83-3.32-10.8 3.43-10.35 5.22M26.61 30.11c1.76 5.12 7.22 4.44 7.86 3.32M25.16 37c1.21 3.51 4.47 2.7 5.54 2.06"/>
+        </g>
+      </g>
+      <path id="nose" d="M81.24 88.64v.07c-10.93 5-10.93 5.06-22.28-.17h22.22z" fill="#f38287" stroke="#100733" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.17"/>
+    </g>
+  </g>
+</svg>

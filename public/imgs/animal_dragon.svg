@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 140.2 140.2">
+  <defs>
+    <style>
+      .cls-1{opacity:.8}.cls-2{fill:#ffdc00}.cls-3{fill:#f9a11b}.cls-10,.cls-5{fill:#fff9ec}.cls-5,.cls-6,.cls-8{stroke:#100733;stroke-linecap:round;stroke-linejoin:round;stroke-width:2.17px}.cls-6{fill:#f06566}.cls-8{fill:none}.cls-9{fill:#100834}
+    </style>
+  </defs>
+  <g id="dragon">
+    <g id="circle">
+      <g id="circle_half_tone" class="cls-1">
+        <path class="cls-2" d="M20.53 20.53a70.1 70.1 0 0199.14 99.14z"/>
+        <path class="cls-3" d="M119.67 119.67a70.1 70.1 0 01-99.14-99.14z"/>
+      </g>
+      <g id="circle_half_tone-2" data-name="circle_half_tone" class="cls-1">
+        <path class="cls-2" d="M70.1 7.44a62.66 62.66 0 010 125.32z"/>
+        <path class="cls-3" d="M70.1 132.76a62.66 62.66 0 010-125.32z"/>
+      </g>
+      <g id="circle_half_tone-3" data-name="circle_half_tone" class="cls-1">
+        <path class="cls-2" d="M107.29 32.91a52.59 52.59 0 01-74.38 74.38z"/>
+        <path class="cls-3" d="M32.91 107.29a52.59 52.59 0 0174.38-74.38z"/>
+      </g>
+      <circle id="circle-2" data-name="circle" cx="70.1" cy="70.1" r="41.21" fill="#fdcd05"/>
+    </g>
+    <g id="dragon-2" data-name="dragon">
+      <g id="horns">
+        <path class="cls-5" d="M92.38 53.48v-14.6a9.73 9.73 0 019.93 1.34v-5.69s1.21-4.3 5.24-3.33v13.55s-1.53 2.8-7.58 0v13.92zM47.81 53.48v-14.6a9.73 9.73 0 00-9.93 1.34v-5.69s-1.2-4.3-5.25-3.33v13.55s1.54 2.8 7.59 0v13.92z"/>
+      </g>
+      <g id="ridges">
+        <path id="top_detail3" data-name="top detail3" class="cls-6" d="M64.45 37.57c0-3.44-3.67-5.27-6-3-2.82 2.84-4.67 7.64-4.67 13.08 0 8.74 4.76 15.81 10.63 15.81z"/>
+        <path id="top_detail2" data-name="top detail2" class="cls-6" d="M75.74 37.57c0-3.44 3.67-5.27 6-3 2.82 2.84 4.66 7.64 4.66 13.08 0 8.74-4.76 15.81-10.62 15.81z"/>
+        <circle id="top_detail" data-name="top detail" class="cls-6" cx="70.21" cy="36.13" r="4.43"/>
+      </g>
+      <path id="head" d="M107.84 85.58l.43-.35-4.22-4.61-2.68-3.54v-7.94c0-17.93-14-32.46-31.26-32.46h0c-17.26.06-31.26 14.59-31.26 32.52V77l-3.2 4.21L32 85.26l.4.32-.43.57 8.14 7.66c8.77 12.89 11.52 18.06 22.56 18.06h15c11.1 0 14-4.16 22.59-18.24l8-7.52z" fill="#f7a790" stroke="#100733" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.17"/>
+      <g id="eyebrows">
+        <path class="cls-6" d="M98.29 61.37l-5.46 4.54c15.4-5.52 25.52-.48 25.52-.48L86 70.53c3.1-8.88 12.29-9.16 12.29-9.16zM41.9 61.37l5.46 4.54c-15.41-5.52-25.52-.48-25.52-.48l32.31 5.1c-3.07-8.88-12.25-9.16-12.25-9.16z"/>
+      </g>
+      <g id="whiskers">
+        <path id="whisker" class="cls-8" d="M85.48 98.22C92.89 87.62 104 90 109.89 84.93s3.29-19.57 15.29-17.27"/>
+        <path id="whisker2" class="cls-8" d="M54.74 98.22C47.29 87.62 36.14 90 30.3 84.93S27 65.36 15 67.66"/>
+      </g>
+      <g id="muzzle">
+        <path id="mouth" class="cls-6" d="M54.18 101.85l.72 5.7a4.41 4.41 0 002.81 3c3.61 1.45 12.45 6.57 12.45 6.57S79 112 82.63 110.57a4.41 4.41 0 002.81-3l.65-5.49c-3 3-8.84 4.27-15.56 4.27-6.91-.02-13.22-1.35-16.35-4.5z"/>
+        <path id="snout" class="cls-6" d="M83.66 88.79c-13.54 4.49-13.54 4.49-27.08 0-2.82-.94-5.34 1.32-6.5 4.4a7.22 7.22 0 002 7.89c3.53 3.61 10.64 5 18.4 5 7.57 0 14.17-1.4 17.54-4.82a7.8 7.8 0 001.79-8.84c-1.21-2.65-3.55-4.5-6.15-3.63z"/>
+      </g>
+      <g id="nostrils">
+        <ellipse id="nostril2" class="cls-9" cx="56.14" cy="95.14" rx="3.81" ry="2.64" transform="rotate(-85.53 56.14 95.15)"/>
+        <ellipse id="nostril2-2" class="cls-9" cx="84.05" cy="95.14" rx="3.81" ry="2.64" transform="rotate(-85.53 84.05 95.14)"/>
+      </g>
+      <g id="teeth">
+        <path class="cls-5" d="M63.19 105.62l-3.2 2.67-3.08-4.55 6.28 1.88zM77 105.62l3.19 2.67 3.08-4.55-6.27 1.88z"/>
+      </g>
+      <g id="eyes">
+        <g id="eyes-2">
+          <circle id="eye2" class="cls-9" cx="48.73" cy="78.65" r="3.02"/>
+          <circle id="eye" class="cls-9" cx="91.46" cy="78.65" r="3.02"/>
+        </g>
+        <circle id="eye_highlight" data-name="eye highlight" class="cls-10" cx="91.46" cy="77.3" r=".73"/>
+        <circle id="eye_highlight-2" data-name="eye highlight-2" class="cls-10" cx="48.78" cy="77.35" r=".73"/>
+      </g>
+    </g>
+  </g>
+</svg>
