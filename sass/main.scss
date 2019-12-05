@@ -39,6 +39,13 @@ a {
     cursor: pointer;
 }
 
+button {
+    &:hover,
+    &:focus{
+     cursor: pointer;
+    }
+}
+
 .hidden {
     display: none;
 }

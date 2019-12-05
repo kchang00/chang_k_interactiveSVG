@@ -2,6 +2,11 @@
   <defs>
     <style>
       .cls-1{opacity:.8}.cls-2{fill:#ffdc00}.cls-3{fill:#f9a11b}.cls-5{fill:#f7a790}.cls-5,.cls-6,.cls-8{stroke:#100733;stroke-linecap:round;stroke-linejoin:round;stroke-width:2.17px}.cls-6{fill:#f06566}.cls-7{fill:#100834}.cls-8,.cls-9{fill:#fff9ec}
+      svg { cursor: pointer; }
+            .magenta{
+        transition: .3s all ease;
+        opacity: 0;
+        }
     </style>
   </defs>
   <g id="circle">
@@ -48,4 +53,10 @@
       <circle id="eye_highlight-2" data-name="eye highlight-2" class="cls-9" cx="49.39" cy="65.88" r=".73"/>
     </g>
   </g>
+    <script>
+      // stub
+      document.querySelector("#ox").addEventListener("click", function () {
+      this.querySelector("#circle").classList.toggle("magenta");
+      });
+    </script>
 </svg>

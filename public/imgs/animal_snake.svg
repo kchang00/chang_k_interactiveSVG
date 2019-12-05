@@ -5,6 +5,11 @@
     </clipPath>
     <style>
       .cls-9{fill:none}.cls-2{opacity:.8}.cls-3{fill:#ffdc00}.cls-4{fill:#f9a11b}.cls-6{fill:#f7a790}.cls-6,.cls-9{stroke:#100733;stroke-linecap:round;stroke-linejoin:round;stroke-width:2.17px}.cls-12{fill:#fff9ec}.cls-10{fill:#100834}
+      svg { cursor: pointer; }
+            .magenta{
+        transition: .3s all ease;
+        opacity: 0;
+        }
     </style>
   </defs>
   <g id="snake">
@@ -54,4 +59,10 @@
       </g>
     </g>
   </g>
+    <script>
+      // stub
+      document.querySelector("#snake").addEventListener("click", function () {
+      this.querySelector("#circle").classList.toggle("magenta");
+      });
+    </script>
 </svg>

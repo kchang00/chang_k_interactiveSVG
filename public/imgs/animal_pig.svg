@@ -2,6 +2,11 @@
   <defs>
     <style>
       .cls-1{opacity:.8}.cls-2{fill:#ffdc00}.cls-3{fill:#f9a11b}.cls-6,.cls-8{stroke:#100733;stroke-linecap:round;stroke-linejoin:round;stroke-width:2.17px}.cls-6{fill:#f06566}.cls-7{fill:#100834}.cls-8{fill:none}
+      svg { cursor: pointer; }
+            .magenta{
+        transition: .3s all ease;
+        opacity: 0;
+        }
     </style>
   </defs>
   <g id="pig">
@@ -42,4 +47,10 @@
       </g>
     </g>
   </g>
+    <script>
+      // stub
+      document.querySelector("#pig").addEventListener("click", function () {
+      this.querySelector("#circle").classList.toggle("magenta");
+      });
+    </script>
 </svg>
