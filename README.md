@@ -1,9 +1,6 @@
 # Chinese Zodiac Animal App
 
-<img src="/public/imgs/animal_dragon.svg" width="100">
-<img src="/public/imgs/animal_pig.svg" width="100">
-<img src="/public/imgs/animal_goat.svg" width="100">
-<img src="/public/imgs/animal_tiger.svg" width="100">
+<img src="/public/imgs/animal_dragon.svg" width="100"><img src="/public/imgs/animal_pig.svg" width="100"><img src="/public/imgs/animal_goat.svg" width="100"><img src="/public/imgs/animal_tiger.svg" width="100">
 
 ## Styles of Animation
 
