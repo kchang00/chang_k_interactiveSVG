@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 140.2 140.2">
+  <defs>
+    <clipPath id="clip-path">
+      <path d="M49.38 80.56h41.44v19.91a11.14 11.14 0 01-11.13 11.12H60.53a11.13 11.13 0 01-11.15-11.11V80.56z" fill="none"/>
+    </clipPath>
+    <style>
+      .cls-9{fill:none}.cls-2{opacity:.8}.cls-3{fill:#ffdc00}.cls-4{fill:#f9a11b}.cls-6{fill:#f7a790}.cls-6,.cls-9{stroke:#100733;stroke-linecap:round;stroke-linejoin:round;stroke-width:2.17px}.cls-12{fill:#fff9ec}.cls-10{fill:#100834}
+    </style>
+  </defs>
+  <g id="snake">
+    <g id="circle">
+      <g id="circle_half_tone" class="cls-2">
+        <path class="cls-3" d="M20.53 20.53a70.1 70.1 0 0199.14 99.14z"/>
+        <path class="cls-4" d="M119.67 119.67a70.1 70.1 0 01-99.14-99.14z"/>
+      </g>
+      <g id="circle_half_tone-2" data-name="circle_half_tone" class="cls-2">
+        <path class="cls-3" d="M70.1 7.44a62.66 62.66 0 010 125.32z"/>
+        <path class="cls-4" d="M70.1 132.76a62.66 62.66 0 010-125.32z"/>
+      </g>
+      <g id="circle_half_tone-3" data-name="circle_half_tone" class="cls-2">
+        <path class="cls-3" d="M107.29 32.91a52.59 52.59 0 01-74.38 74.38z"/>
+        <path class="cls-4" d="M32.91 107.29a52.59 52.59 0 0174.38-74.38z"/>
+      </g>
+      <circle id="circle-2" data-name="circle" cx="70.1" cy="70.1" r="41.21" fill="#fdcd05"/>
+    </g>
+    <g id="snake-2" data-name="snake">
+      <g id="neck">
+        <path id="neck_body-2" data-name="neck body-2" class="cls-6" d="M49.38 80.56h41.44v19.91a11.14 11.14 0 01-11.13 11.12H60.53a11.13 11.13 0 01-11.15-11.11V80.56z"/>
+        <path id="neck_body-3" data-name="neck body-3" class="cls-6" d="M49.38 71.9h41.44v19.9a11.13 11.13 0 01-11.13 11.12H60.53a11.12 11.12 0 01-11.15-11.11V71.9z"/>
+        <path id="neck_body-4" data-name="neck body-4" class="cls-6" d="M49.38 63.24h41.44v19.9a11.13 11.13 0 01-11.13 11.12H60.53a11.12 11.12 0 01-11.15-11.11V63.24z"/>
+      </g>
+      <g id="neck-2">
+        <g clip-path="url(#clip-path)">
+          <path id="body_inner" data-name="body inner" d="M70.1 63.24h0A12.93 12.93 0 0183 76.17v36.5H57.17v-36.5A12.93 12.93 0 0170.1 63.24z" fill="#fff9ec" stroke="#100733" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.17"/>
+        </g>
+        <path id="neck_body-5" data-name="neck body-5" class="cls-9" d="M49.38 80.56h41.44v19.91a11.14 11.14 0 01-11.13 11.12H60.53a11.13 11.13 0 01-11.15-11.11V80.56z"/>
+      </g>
+      <path id="head" class="cls-6" d="M70.26 89.84c3.55 0 6.5-.72 9-3.3 6.68-6.68 17.29-4.68 22.08-11.28 3-4.12 2.44-9.15 2.44-14.32 0-17.85-14.6-32.33-31.73-32.33h-4C51 28.61 36.4 43.09 36.4 60.94c0 4.9-.63 9.66 2.2 13.53 4.93 6.83 15.78 5.22 22.66 12.07 2.54 2.58 5.46 3.3 9 3.3z"/>
+      <g id="nostrils">
+        <ellipse id="nostril2" class="cls-10" cx="64.82" cy="79.88" rx=".97" ry="3.7" transform="rotate(-45 64.82 79.88)"/>
+        <ellipse id="nostril2-2" class="cls-10" cx="75.38" cy="79.88" rx="3.7" ry=".97" transform="rotate(-45 75.38 79.89)"/>
+      </g>
+      <path id="tongue" fill="#f38287" stroke="#100733" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.17" d="M74.2 105.47l-4.1-8.67-4.09 8.67V89.84h8.19v15.63z"/>
+      <g id="snout_ridges" data-name="snout ridges">
+        <path id="mouth_cheek2" data-name="mouth cheek2" class="cls-9" d="M61.39 71.8a12.34 12.34 0 0117.42 0"/>
+        <path id="mouth_cheek2-2" data-name="mouth cheek2-2" class="cls-9" d="M63.17 65.33a9.83 9.83 0 0113.87 0"/>
+        <path id="mouth_cheek2-3" data-name="mouth cheek2-3" class="cls-9" d="M64.45 59.68a8 8 0 0111.29 0"/>
+      </g>
+      <g id="eyes">
+        <ellipse id="eye2" class="cls-10" cx="49.38" cy="64.63" rx="2.92" ry="3.1"/>
+        <ellipse id="eye" class="cls-10" cx="90.82" cy="64.63" rx="2.92" ry="3.1"/>
+        <circle id="eye_highlight" data-name="eye highlight" class="cls-12" cx="90.82" cy="63.19" r=".73"/>
+        <circle id="eye_highlight-2" data-name="eye highlight-2" class="cls-12" cx="49.38" cy="63.24" r=".73"/>
+      </g>
+    </g>
+  </g>
+</svg>

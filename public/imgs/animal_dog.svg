@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 140.2 140.2">
+  <defs>
+    <style>
+      .cls-1{opacity:.8}.cls-2{fill:#ffdc00}.cls-3{fill:#f9a11b}.cls-10,.cls-6{stroke:#100733;stroke-linecap:round;stroke-linejoin:round;stroke-width:2.17px}.cls-6{fill:#f06566}.cls-7{fill:#100834}.cls-10,.cls-8{fill:#fff9ec}
+    </style>
+  </defs>
+  <g id="dog">
+    <g id="circle">
+      <g id="circle_half_tone" class="cls-1">
+        <path class="cls-2" d="M20.53 20.53a70.1 70.1 0 0199.14 99.14z"/>
+        <path class="cls-3" d="M119.67 119.67a70.1 70.1 0 01-99.14-99.14z"/>
+      </g>
+      <g id="circle_half_tone-2" data-name="circle_half_tone" class="cls-1">
+        <path class="cls-2" d="M70.1 7.44a62.66 62.66 0 010 125.32z"/>
+        <path class="cls-3" d="M70.1 132.76a62.66 62.66 0 010-125.32z"/>
+      </g>
+      <g id="circle_half_tone-3" data-name="circle_half_tone" class="cls-1">
+        <path class="cls-2" d="M107.29 32.91a52.59 52.59 0 01-74.38 74.38z"/>
+        <path class="cls-3" d="M32.91 107.29a52.59 52.59 0 0174.38-74.38z"/>
+      </g>
+      <circle id="circle-2" data-name="circle" cx="70.1" cy="70.1" r="41.21" fill="#fdcd05"/>
+    </g>
+    <g id="dog-2" data-name="dog">
+      <path id="head" d="M103.39 68.5v-5.13a33.28 33.28 0 00-33.28-33.29h0a33.28 33.28 0 00-33.29 33.29h0v5.25c-3.76 3.46-4 8.41-4 13.92h0c0 7.94 2.74 14.75 9.69 17.54l7.59 3.4a33.18 33.18 0 0020 6.64h0a33.1 33.1 0 0019.5-6.33l8.46-3.79c6.79-2.89 9.38-9.59 9.38-17.43h0c.03-5.57-.21-10.57-4.05-14.07z" stroke="#100733" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.17" fill="#f7a790"/>
+      <g id="ears">
+        <path id="ear" class="cls-6" d="M30.85 59.85c4.42 6.5 16.38.54 15.45-9.54-.29-3.45-3.9-6.91-1-8.87s6.86-3 11.26-3.47V35.6H35.61A3.66 3.66 0 0031.7 39l-1.81 12.49c-.54 5.29.32 7.51.96 8.36z"/>
+        <path id="ear-2" class="cls-6" d="M109.37 59.85c-4.43 6.5-16.38.54-15.45-9.54.32-3.45 3.86-6.91 1-8.87s-6.86-3-11.26-3.47V35.6h20.94a3.66 3.66 0 013.92 3.4l1.77 12.52c.57 5.26-.29 7.48-.92 8.33z"/>
+      </g>
+      <g id="eyes">
+        <g id="eyes-2">
+          <circle id="eye2" class="cls-7" cx="49.55" cy="73.09" r="2.9"/>
+          <circle id="eye" class="cls-7" cx="90.66" cy="73.09" r="2.9"/>
+        </g>
+        <circle id="eye_highlight" data-name="eye highlight" class="cls-8" cx="90.66" cy="71.79" r=".7"/>
+        <circle id="eye_highlight-2" data-name="eye highlight-2" class="cls-8" cx="49.6" cy="71.84" r=".7"/>
+      </g>
+      <path id="tongue" class="cls-6" d="M65.17 89h9.88v8.5a4.94 4.94 0 01-4.94 4.94 4.94 4.94 0 01-4.94-4.94z"/>
+      <path id="tongue_middle" data-name="tongue middle" fill="none" stroke="#100733" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.17" d="M70.11 89v6.66"/>
+      <path id="muzzle" class="cls-10" d="M91.15 86.43a10.28 10.28 0 01-3.51 7.42 10.56 10.56 0 01-17.5-7.94A10.57 10.57 0 0151.79 93a2 2 0 01-.23-.27 5.84 5.84 0 01-.39-.48c-.12-.17-.26-.35-.38-.53a3.13 3.13 0 01-.21-.34 4 4 0 01-.26-.45 10.41 10.41 0 01-1.19-3.38 1.72 1.72 0 010-.39v-1.27c.44-7.15 9.69-14.79 21-14.79s20.57 7.64 21 14.79c.01.2.02.36.02.54z"/>
+      <path id="nose" class="cls-6" d="M74.07 78h-8.15a2.06 2.06 0 00-1.85 2.25 2.14 2.14 0 00.4 1L65 82c.1.4 1.91 0 1.93 2.31 0 1.28 1.65 1.65 3.18 1.65s3.16-.37 3.19-1.65c0-2.31 1.82-1.91 1.92-2.31l.49-.65A2.07 2.07 0 0074.22 78z"/>
+      <path id="snout" class="cls-10" d="M57.17 74.77A25.06 25.06 0 0183 74.62a38 38 0 01-6.6-21.85c0-8.1 2.06-15.4 5.4-20.63a33.5 33.5 0 00-11.56-2.06 32.9 32.9 0 00-11.69 2.12c3.35 5.21 5.37 12.5 5.37 20.57a37.81 37.81 0 01-6.75 22z"/>
+    </g>
+  </g>
+</svg>

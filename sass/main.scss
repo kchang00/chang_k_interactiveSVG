@@ -1,0 +1,57 @@
+// sass --watch sass/main.scss:public/css/main.css --style compressed
+
+@import '_vars';
+@import 'modules/_footer';
+@import 'modules/_home';
+
+html, body {
+    scroll-behavior: smooth;
+    // lightbox scrolling
+    overflow: auto;
+    height: 100%;
+
+}
+
+img {
+    width: 100%;
+    height: auto;
+    max-height: 100%;
+}
+
+h1 {
+    @include h1-class;
+}
+
+h2 {
+    @include h2-class;
+}
+
+h3 {
+    @include h3-class;
+}
+
+p {
+    @include p-class;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.hidden {
+    display: none;
+}
+
+.main-con {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    // text-align: center;
+}
+
+@keyframes fade-in {
+    0%   { opacity: 0; }
+    100% { opacity: 1; }
+}

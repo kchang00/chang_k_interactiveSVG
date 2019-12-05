@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 140.2 140.2">
+  <defs>
+    <style>
+      .cls-1{opacity:.8}.cls-2{fill:#ffdc00}.cls-3{fill:#f9a11b}.cls-5{fill:#f06566}.cls-5,.cls-6,.cls-7{stroke:#100733;stroke-linecap:round;stroke-linejoin:round;stroke-width:2.17px}.cls-6,.cls-9{fill:#fff9ec}.cls-7{fill:none}.cls-8{fill:#100834}
+    </style>
+  </defs>
+  <g id="monkey">
+    <g id="circle">
+      <g id="circle_half_tone" class="cls-1">
+        <path class="cls-2" d="M20.53 20.53a70.1 70.1 0 0199.14 99.14z"/>
+        <path class="cls-3" d="M119.67 119.67a70.1 70.1 0 01-99.14-99.14z"/>
+      </g>
+      <g id="circle_half_tone-2" data-name="circle_half_tone" class="cls-1">
+        <path class="cls-2" d="M70.1 7.44a62.66 62.66 0 010 125.32z"/>
+        <path class="cls-3" d="M70.1 132.76a62.66 62.66 0 010-125.32z"/>
+      </g>
+      <g id="circle_half_tone-3" data-name="circle_half_tone" class="cls-1">
+        <path class="cls-2" d="M107.29 32.91a52.59 52.59 0 01-74.38 74.38z"/>
+        <path class="cls-3" d="M32.91 107.29a52.59 52.59 0 0174.38-74.38z"/>
+      </g>
+      <circle id="circle-2" data-name="circle" cx="70.1" cy="70.1" r="41.21" fill="#fdcd05"/>
+    </g>
+    <g id="monkey-2" data-name="monkey">
+      <g id="ears">
+        <circle id="ear2" class="cls-5" cx="103.75" cy="69.36" r="14.65"/>
+        <circle id="ear_inside2" data-name="ear inside2" class="cls-6" cx="103.75" cy="69.36" r="7.8"/>
+        <circle id="ear" class="cls-5" cx="36.45" cy="69.36" r="14.65"/>
+        <circle id="ear_inside" data-name="ear inside" class="cls-6" cx="36.45" cy="69.36" r="7.8"/>
+      </g>
+      <path id="body" class="cls-5" d="M70.1 97.45c-18.48 0-33.48-3.19-33.48-19.09V61.44c0-15.9 15-28.78 33.48-28.78 18.49 0 33.48 12.88 33.48 28.78v16.92c0 15.9-14.96 19.09-33.48 19.09z"/>
+      <path id="face" class="cls-6" d="M96.88 61.43C89.09 56 77.55 57.1 70.1 65.93c-7.44-8.82-19-10-26.77-4.5-8.33 5.87-9.21 19.06-1.91 29.45a26.81 26.81 0 0011 9.19c3.38 4.44 10.11 7.47 17.88 7.47 7.95 0 14.77-3.15 18.06-7.74a26.78 26.78 0 0010.4-8.92c7.32-10.39 6.47-23.58-1.88-29.45z"/>
+      <ellipse id="muzzle" class="cls-5" cx="70.1" cy="90.36" rx="17.27" ry="11.93"/>
+      <g id="mouth">
+        <path id="smile" class="cls-7" d="M86.7 87.91c0 5-7.29 7-16.27 7S53.5 93 53.5 87.91"/>
+        <path id="mouth_cheek2" data-name="mouth cheek2" class="cls-7" d="M53.5 87.91a3.93 3.93 0 01-5.55 0"/>
+        <path id="mouth_cheek" data-name="mouth cheek" class="cls-7" d="M92.23 87.91a3.93 3.93 0 01-5.55 0"/>
+      </g>
+      <g id="nostrils">
+        <ellipse id="nostril2" class="cls-8" cx="61.72" cy="85.8" rx=".97" ry="3.7" transform="rotate(-45 61.72 85.8)"/>
+        <ellipse id="nostril2-2" class="cls-8" cx="78.48" cy="85.79" rx="3.7" ry=".97" transform="rotate(-45 78.48 85.8)"/>
+      </g>
+      <g id="eyes">
+        <ellipse id="eye2" class="cls-8" cx="49.38" cy="77.6" rx="2.92" ry="3.1"/>
+        <ellipse id="eye" class="cls-8" cx="90.82" cy="77.6" rx="2.92" ry="3.1"/>
+        <circle id="eye_highlight" data-name="eye highlight" class="cls-9" cx="90.82" cy="76.22" r=".73"/>
+        <circle id="eye_highlight-2" data-name="eye highlight-2" class="cls-9" cx="49.38" cy="76.27" r=".73"/>
+      </g>
+    </g>
+  </g>
+</svg>
