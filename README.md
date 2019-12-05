@@ -1,6 +1,6 @@
 # Chinese Zodiac Animal App
 
-![Chinese Zodiac Animal](/public/images/animal_dragon.svg)
+![Chinese Zodiac Animal](/public/imgs/animal_dragon.svg)
 
 ## Styles of Animation
 
