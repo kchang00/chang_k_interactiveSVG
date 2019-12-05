@@ -12,9 +12,9 @@ Simple app to figure out your Chinese Zodiac.
 * **HTML5**
 * **SASS/CSS3**
 * **JavaScript**
-**Node JS**
-**Express**
-**MySQL**
+* **Node JS**
+* **Express**
+* **MySQL**
 
 
 ## Installation
@@ -24,7 +24,6 @@ You need these to run the program:
 * NPM
 * Node JS
 * Express
-* Handlebars
 
 To install the packages: `npm install`
 
