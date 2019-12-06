@@ -11,34 +11,39 @@
     <link rel="icon" type="image/png" sizes="16x16" href="imgs/favicon.png">
     <link href="https://fonts.googleapis.com/css?family=Nunito+Sans|Raleway&display=swap" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet" type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/plugins/ScrollToPlugin.min.js"></script>
     <title>Chinese Zodiac</title>
 </head>
 
-  <body>
+  <body unresolved>
       <div class="main-con">
         <main class="home-con">
-            <h1>Which <span>Chinese Zodiac</span> Are You?</h1>
-                <section class="animal-btns">
+            <h1 class="content">Which <span>Chinese Zodiac</span> Are You?</h1>
+                <section class="animal-btns content">
                     <h2 class="hidden">Animal Buttons</h2>
-                    <button class="svg-btn" data-target="1"><div></div><object data="imgs/animal_rat.svg" type="image/svg+xml" id="rat"></object></button>
-                    <button class="svg-btn" data-target="2"><div></div><object data="imgs/animal_ox.svg" type="image/svg+xml" id="ox"></object></button>
-                    <button class="svg-btn" data-target="3" ><object data="imgs/animal_tiger.svg" type="image/svg+xml" id="tiger"></object></button>
-                    <button class="svg-btn"><object data="imgs/animal_rabbit.svg" data-target="4" type="image/svg+xml" id="rabbit"></object></button>
-                    <button class="svg-btn"><object data="imgs/animal_dragon.svg" data-target="5" type="image/svg+xml" id="dragon"></object></button>
-                    <button class="svg-btn"><object data="imgs/animal_snake.svg" data-target="6" type="image/svg+xml" id="snake"></object></button>
-                    <button class="svg-btn"><object data="imgs/animal_horse.svg" data-target="7" type="image/svg+xml" id="horse"></object></button>
-                    <button class="svg-btn"><object data="imgs/animal_goat.svg" data-target="8" type="image/svg+xml" id="goat"></object></button>
-                    <button class="svg-btn"><object data="imgs/animal_monkey.svg" data-target="9" type="image/svg+xml" id="monkey"></object></button>
-                    <button class="svg-btn"><object data="imgs/animal_rooster.svg" data-target="10" type="image/svg+xml" id="rooster"></object></button>
-                    <button class="svg-btn"><object data="imgs/animal_dog.svg" data-target="11" type="image/svg+xml" id="dog"></object></button>
-                    <button class="svg-btn"><object data="imgs/animal_pig.svg" data-target="12" type="image/svg+xml" id="pig"></object></button>
+                    <button class="svg-btn" data-target="1"><div class="blocker"><object data="imgs/animal_rat.svg" type="image/svg+xml" id="rat"></object></div></button>
+                    <button class="svg-btn" data-target="2"><div class="blocker"><object data="imgs/animal_ox.svg" type="image/svg+xml" id="ox"></object></div></button>
+                    <button class="svg-btn" data-target="3"><div class="blocker"><object data="imgs/animal_tiger.svg" type="image/svg+xml" id="tiger"></object></div></button>
+                    <button class="svg-btn" data-target="4"><div class="blocker"><object data="imgs/animal_rabbit.svg" type="image/svg+xml" id="rabbit"></object></div></button>
+                    <button class="svg-btn" data-target="5"><div class="blocker"><object data="imgs/animal_dragon.svg" type="image/svg+xml" id="dragon"></object></div></button>
+                    <button class="svg-btn" data-target="6"><div class="blocker"><object data="imgs/animal_snake.svg" type="image/svg+xml" id="snake"></object></div></button>
+                    <button class="svg-btn" data-target="7"><div class="blocker"><object data="imgs/animal_horse.svg" type="image/svg+xml" id="horse"></object></div></button>
+                    <button class="svg-btn" data-target="8"><div class="blocker"><object data="imgs/animal_goat.svg" type="image/svg+xml" id="goat"></object></div></button>
+                    <button class="svg-btn" data-target="9"><div class="blocker"><object data="imgs/animal_monkey.svg" type="image/svg+xml" id="monkey"></object></div></button>
+                    <button class="svg-btn" data-target="10"><div class="blocker"><object data="imgs/animal_rooster.svg" type="image/svg+xml" id="rooster"></object></div></button>
+                    <button class="svg-btn" data-target="11"><div class="blocker"><object data="imgs/animal_dog.svg" type="image/svg+xml" id="dog"></object></div></button>
+                    <button class="svg-btn" data-target="12"><div class="blocker"><object data="imgs/animal_pig.svg" type="image/svg+xml" id="pig"></object></div></button>
                 </section>
-                <section class="animal-description">
-                    <h2 class="name">Rat</h2>
-                    <h3 class="mandarin-name">鼠(Shǔ)</h3>
-                    <p class="description">Rats are clever, quick thinkers; successful, but content with living a quiet and peaceful life.</p>
-                    <div class="years"></div>
-                </section>
+                <div class="desc-wheel-con">
+                    <section class="animal-description" id="scroll-desc">
+                        <h2 class="name"></h2>
+                        <h3 class="mandarin-name"></h3>
+                        <p class="description"></p>
+                        <div class="years"></div>
+                    </section>
+                    <object class="hidden" data="imgs/wheel.svg" type="image/svg+xml" id="wheel"></object>
+                </div>
         </main>
         
       </div>

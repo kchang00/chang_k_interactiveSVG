@@ -6,10 +6,13 @@
 
 html, body {
     scroll-behavior: smooth;
-    // lightbox scrolling
-    overflow: auto;
     height: 100%;
+}
 
+body {
+    display: flex;
+    flex-direction: column;
+    background: $magenta;
 }
 
 img {
@@ -56,9 +59,29 @@ button {
     justify-content: center;
     margin: 0 auto;
     // text-align: center;
+    flex:1;
+    // height: 100vh;
+    background: $magenta;
+    opacity: 0;
+    &.all-loaded {
+        opacity: 1;
+    }
+}
+
+.blocker {
+    pointer-events: none;
+}
+
+.fade-in {
+    animation: .3s ease-in fade-in;
 }
 
 @keyframes fade-in {
     0%   { opacity: 0; }
     100% { opacity: 1; }
 }
+
+[unresolved] {
+    display: none;
+  }
+  

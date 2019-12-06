@@ -1,11 +1,17 @@
 const myVM = (() => {
     // try to get the object and do stuff with it
     let seeMoreButtons = document.querySelectorAll('.svg-btn'),
-        description = document.querySelector('.animal-description');
+        description = document.querySelector('.animal-description'),
+        mainCon = document.querySelector('.main-con'),
+        wheel = document.querySelector('#wheel');
     
         console.log('main.js working');
         console.log(seeMoreButtons);
         console.log(description);
+
+        window.addEventListener('load', function() {
+            mainCon.classList.add('all-loaded');
+        })
 
     function showDescription(animaldata, el) {
         // referencing object pulled from database (using variable animaldata)
@@ -14,7 +20,19 @@ const myVM = (() => {
         description.querySelector('.mandarin-name').textContent = `${animaldata.Mandarin}`;
         description.querySelector('.description').textContent = animaldata.Description;
 
-        el.appendChild(description);
+        wheel.classList.remove('hidden');
+        description.classList.add('fade-in');
+        wheel.classList.add('fade-in');
+        // TweenMax.to(window, 4, {scrollTo:"#scroll-desc"});
+        TweenMax.to(window, 2, {scrollTo:1000});
+
+        // if (description.innerHTML='') {
+        //     description.classList.add('hidden');
+        // }else{
+        //     description.classList.remove('hidden');
+        // }
+
+        // el.appendChild(description);
     }
 
     //create the years list
@@ -28,11 +46,11 @@ const myVM = (() => {
     function parseYearData(year) {
         let targetDiv = document.querySelector('.years');
 
+        // loop through Years here
+        // referencing object pulled from database (using variable animaldata)
+        // referencing container "key" (column name) - getting back value - specifically for Years
+        // grab new array (named Year) made using renderYears 
         let yearContent =  `
-                <!-- loop through tools here -->
-                // referencing object pulled from database (using variable animaldata)
-                // referencing container "key" (column name) - getting back value - specifically for Years
-                // grab new array (named Year) made using renderYears 
                 ${renderYears(year.Year)}
         `;
         targetDiv.innerHTML = yearContent;
@@ -58,7 +76,23 @@ const myVM = (() => {
     }
 
     
-        seeMoreButtons.forEach(button => button.addEventListener("click", fetchData));
+    if (document.readyState === "interactive" || document.readyState === "complete") {
+        resolve();
+    } else {
+        window.addEventListener("DOMContentLoaded", resolve);
+    }
+    
+    function resolve() {
+        
+        document.body.removeAttribute("unresolved");
+        
+        TweenMax.from(".content", 1.5, {
+        opacity: 0,
+        y: 20
+        });
+    }
+
+    seeMoreButtons.forEach(button => button.addEventListener("click", fetchData));
     
 
 })();
